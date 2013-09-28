@@ -13,6 +13,17 @@ Like in the the following example
 ./muniq.rb ~/Pictures/bday /Volumes/MyExternalDrive/2013-bday
 ```
 
+Some profiling
+
+Close to 10GB of pictures
+```
+$ time ./muniq.rb <source> <target>
+Finding duplicated files...
+Found 3002 unique files
+And 298 repeated files
+Moving unique files to <target>
+./muniq.rb <source> <target>  6.68s user 12.60s system 89% cpu 21.642 total
+```
 
 DISCLAIMER
 ===========

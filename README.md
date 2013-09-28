@@ -13,9 +13,7 @@ Like in the the following example
 ./muniq.rb ~/Pictures/bday /Volumes/MyExternalDrive/2013-bday
 ```
 
-Some profiling
-
-Close to 10GB of pictures
+Some profiling (close to 10GB of pictures)
 ```
 $ time ./muniq.rb <source> <target>
 Finding duplicated files...

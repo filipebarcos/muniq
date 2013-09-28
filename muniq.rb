@@ -3,7 +3,7 @@ require "fileutils"
 
 class Array
   def include_file?(file)
-    self.map { |f| FileUtils.cmp(file, f) }.include?(true)
+    self.find { |f| FileUtils.cmp(file, f) }
   end
 end
 
